@@ -21,3 +21,4 @@ docker run -d \
 
 Network host is used so the service can reach a local LND via localhost. LND is assumed to be under the users home folder, update these resources as needed.
 
+> **Note:** ensure you create a `cronjob` in your Docker container to periodically create or update your channels backup in case of boating accident.
