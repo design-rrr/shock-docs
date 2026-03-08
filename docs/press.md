@@ -17,3 +17,5 @@ https://www.coindesk.com/business/2022/08/07/move-over-ethereum-bitcoins-lightni
 https://thebitcoinmanual.com/articles/bitcoin-app-lightning-video/
 
 https://www.criptonoticias.com/comunidad/entretenimiento/creadores-contenido-video-podran-generar-bitcoin-nueva-plataforma/
+
+https://www.nobsbitcoin.com/lightning-pub-shockwallet-nostr-based-account-system-for-lightning/
