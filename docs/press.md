@@ -16,7 +16,7 @@ https://www.coindesk.com/business/2022/08/07/move-over-ethereum-bitcoins-lightni
 
 https://thebitcoinmanual.com/articles/bitcoin-app-lightning-video/
 
-https://www.youtube.com/watch?v=6ZOOG5jmSZw
+https://www.thrillerbitcoin.com/lightning-talk-with-justin-shocknet/ - [YT](https://www.youtube.com/watch?v=6ZOOG5jmSZw)
 
 https://www.criptonoticias.com/comunidad/entretenimiento/creadores-contenido-video-podran-generar-bitcoin-nueva-plataforma/
 
