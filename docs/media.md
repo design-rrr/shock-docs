@@ -9,10 +9,10 @@ Everything you need to cover ShockNet: Logos, boilerplate copy, founder bios, pr
 _Founder & CEO_
 - `𓅦` https://njump.to/npub1xvtwx6tduaxnn9v3y7uasskl277achgu0tu2qncmc7hdsz6y2zyqce64sa
 - `𝕏` [@shocknet_justin](https://x.com/shocknet_justin)
-- `🖄` [Telegram]([url](https://t.me/justin_shocknet))
+- `🖄` [Telegram](https://t.me/justin_shocknet)
 - `✉` [justin@shocknet.dev](mailto:justin@shocknet.dev)
 - `⚡` [Stacker News](https://stacker.news/justin_shocknet/all)
-- `⌧`[LinkedIn]([#](https://www.linkedin.com/in/justinhilton/))
+- `⌧`[LinkedIn](https://www.linkedin.com/in/justinhilton/)
 
 > <small>Response time: 48–72 hours: For embargoed or time-sensitive stories, please mark your subject line [EMBARGO] and include your publication date.</small>
 
