@@ -108,7 +108,7 @@ Rather than exposing node APIs directly, Lightning.Pub uses Nostr relays as its 
 ```
 
 ### ShockWallet
-Bitcoin Dayly Spanding: <small>[ShockWallet.app](https://shockwallet.app) · [github.com/shocknet/wallet2](https://github.com/shocknet/wallet2)</small>
+Bitcoin Dayly Spending: <small>[ShockWallet.app](https://shockwallet.app) · [github.com/shocknet/wallet2](https://github.com/shocknet/wallet2)</small>
 
 **One-line:** The non-custodial Lightning wallet that connects to your own node over Nostr — no ports, no VPNs, no compromise on sovereignty.
 
