@@ -95,61 +95,58 @@ ShockNet is backed by Fulgur Ventures (pre-seed) and the Wolf NYC Lightning Acce
 Approved editorial description. Each block includes copy cleared for press use, a one-line description for lists and tables, and relevant URLs.
 
 
-#### Lightning.Pub
-<small>https://Lightning.pub · https://github.com/shocknet/Lightning.Pub</small>
+### Lightning.Pub
+Bitcoin Bank: <small>https://Lightning.pub · https://github.com/shocknet/Lightning.Pub</small>
+One-line: The open-source Nostr-native Lightning node daemon — run a professional Lightning service on any hardware, with zero network configuration.
+
 `Node Middleware` - `Nostr-Native` - `Open Source`
 ```
 Lightning.Pub is an open-source, Nostr-native Lightning node daemon that turns any server, Raspberry Pi, NUC, or VPS into a shared Lightning node — no port forwarding, no TLS configuration, and no Bitcoin full node required.
 
 Rather than exposing node APIs directly, Lightning.Pub uses Nostr relays as its communication layer, meaning the node operator never needs to open firewall ports or manage SSL certificates. Multiple users can share a single node through Lightning.Pub's multi-layer account system, enabling "Uncle Jim" operators to offer Lightning services to family, friends, or customers with full non-custodial guarantees.
-
-One-line: The open-source Nostr-native Lightning node daemon — run a professional Lightning service on any hardware, with zero network configuration.
 ```
 
-#### ShockWallet
-<small>https://shockwallet.app · https://github.com/shocknet/wallet2</small>
+### ShockWallet
+Bitcoin Dayly Spanding: <small>https://shockwallet.app · https://github.com/shocknet/wallet2</small>
+One-line: The non-custodial Lightning wallet that connects to your own node over Nostr — no ports, no VPNs, no compromise on sovereignty.
+
 `Mobile & Web Wallet` - `Non-Custodial` - `Remote Node`
 ```
 ShockWallet is a non-custodial Lightning wallet that connects to a self-hosted Lightning.Pub node without requiring the phone and node to be on the same network. All communication between wallet and node is relayed over the Nostr network, meaning there are no IP addresses, port forwarding rules, or VPN tunnels involved.
 
 Users can connect to their own Lightning.Pub node or to a trusted node run by someone they know — giving them full key ownership with the convenience of a custodial app. ShockWallet supports LNURL, Lightning Addresses, NIP05-backed Lightning Addresses, and standard on-chain Bitcoin transactions.
-
-One-line: The non-custodial Lightning wallet that connects to your own node over Nostr — no ports, no VPNs, no compromise on sovereignty.
 ```
 
-#### Lightning.Video
-<small>https://ln.video · https://github.com/shocknet/ClinkSDK</small>
-Stream & Monetize Video with Bitcoin
+### Lightning.Video
+Monetize Video with Bitcoin: <small>https://ln.video · https://github.com/shocknet/ClinkSDK</small>
+One-line: The Bitcoin-native decentralized video platform where creators monetize directly with Lightning micropayments — no ads, no algorithms, no intermediaries.
+
 `Video Platform` - `Pay per View` - `Paywall` - `Micropayments`
 ```
 Lightning.Video is a decentralized video platform powered by the Bitcoin Lightning Network and WebTorrent. Creators upload directly and set their own prices — from free to per-view micropayments — with every payment going directly to the creator's Lightning wallet, with no intermediary taking a cut.
 
 The platform requires no account to browse, no email to sign up, and no advertiser relationships. Creators retain full control of their content and monetization strategy. Lightning.Video launched publicly in September 2022 and recorded a greater than 1000% month-over-month increase in user-generated revenues in June 2023.
-
-One-line: The Bitcoin-native decentralized video platform where creators monetize directly with Lightning micropayments — no ads, no algorithms, no intermediaries.
 ```
 
-#### Sanctum Auth
-<small>https://auth.shcok.network · https://github.com/shocknet/sanctum-client</small>
-Authentication layer · github.com/shocknet
+### Sanctum Auth
+Authentication layer: <small>https://auth.shcok.network · https://github.com/shocknet/sanctum-client</small>
+One-line: Nostr-native passwordless authentication — let users log in with their sovereign identity, no email or phone required.
+
 `DigitalID` - `Auth` - `Nostr-Native` - `Passwordless`
 ```
 Sanctum Auth is ShockNet's Nostr-native authentication layer, enabling applications to offer passwordless, sovereign login flows without email addresses, phone numbers, or OAuth providers.
 
 Built on Nostr public-key cryptography, Sanctum Auth allows users to authenticate with any application in the ShockNet ecosystem — and with third-party apps that integrate the Clink SDK — using only a Nostr keypair. This removes the dependency on centralized identity providers while maintaining a familiar single-sign-on experience.
-
-One-line: Nostr-native passwordless authentication — let users log in with their sovereign identity, no email or phone required.
 ```
 
-#### Clink SDK
-<small>https://CLINKme.dev · https://github.com/shocknet/CLINK</small>
-Developer SDK · github.com/shocknet/
+### Clink SDK
+Developer SDK: <small>https://CLINKme.dev · https://github.com/shocknet/CLINK</small>
+One-line: The web SDK that makes adding Bitcoin Lightning payments to any application a few-line integration.
+
 `SDK` - `API` - `Developer Tools`
 ```
 Clink is ShockNet's JavaScript SDK for embedding Bitcoin Lightning payments into any web application. Developers can integrate Lightning payment flows, Lightning Address resolution, and Sanctum Auth login in a few lines of code, without needing to understand the underlying node or Nostr protocol details.
 
 Clink abstracts Lightning.Pub's API into a high-level, web-native interface, enabling rapid integration for wallets, e-commerce sites, content platforms, and developer tools that want to accept or send Bitcoin Lightning payments.
-
-One-line: The web SDK that makes adding Bitcoin Lightning payments to any application a few-line integration.
 ```
 
