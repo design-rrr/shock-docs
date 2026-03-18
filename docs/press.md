@@ -45,6 +45,8 @@ https://www.nobsbitcoin.com/lightning-pub-shockwallet-nostr-based-account-system
 
 ## Interviews
 
+[Shockwallet Pitch @ PlebLab Startup Day - Mexico City](https://www.youtube.com/watch?v=M_UAmNJSG6I)
+
 [Lightning Talk with Justing Shocknet](https://www.thrillerbitcoin.com/lightning-talk-with-justin-shocknet/) - YT
 
 [Rugpull Radio 146: Special Guest Justin Shocknet Satoshi's True Vision](https://www.youtube.com/watch?v=ldwlRs-dQwU)
