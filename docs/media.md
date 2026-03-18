@@ -12,7 +12,7 @@ _Founder & CEO_
 - `🖄` [Telegram](https://t.me/justin_shocknet)
 - `✉` [justin@shocknet.dev](mailto:justin@shocknet.dev)
 - `⚡` [Stacker News](https://stacker.news/justin_shocknet/all)
-- `⌧`[LinkedIn](https://www.linkedin.com/in/justinhilton/)
+- `⌧` [LinkedIn](https://www.linkedin.com/in/justinhilton/)
 
 > <small>Response time: 48–72 hours: For embargoed or time-sensitive stories, please mark your subject line [EMBARGO] and include your publication date.</small>
 
@@ -96,7 +96,7 @@ Approved editorial description. Each block includes copy cleared for press use, 
 
 
 ### Lightning.Pub
-Bitcoin Bank: <small>https://Lightning.pub · https://github.com/shocknet/Lightning.Pub</small>
+Bitcoin Bank: <small>[Lightning.pub](https://Lightning.pub) · [github.com/shocknet/Lightning.Pub](https://github.com/shocknet/Lightning.Pub)</small>
 
 **One-line:** The open-source Nostr-native Lightning node daemon — run a professional Lightning service on any hardware, with zero network configuration.
 
@@ -108,7 +108,7 @@ Rather than exposing node APIs directly, Lightning.Pub uses Nostr relays as its 
 ```
 
 ### ShockWallet
-Bitcoin Dayly Spanding: <small>https://shockwallet.app · https://github.com/shocknet/wallet2</small>
+Bitcoin Dayly Spanding: <small>[ShockWallet.app](https://shockwallet.app) · [github.com/shocknet/wallet2](https://github.com/shocknet/wallet2)</small>
 
 **One-line:** The non-custodial Lightning wallet that connects to your own node over Nostr — no ports, no VPNs, no compromise on sovereignty.
 
@@ -120,7 +120,7 @@ Users can connect to their own Lightning.Pub node or to a trusted node run by so
 ```
 
 ### Lightning.Video
-Monetize Video with Bitcoin: <small>https://ln.video · https://github.com/shocknet/ClinkSDK</small>
+Monetize Video with Bitcoin: <small>[LN.video](https://ln.video) · [github.com/shocknet/ClinkSDK](https://github.com/shocknet/ClinkSDK)</small>
 
 **One-line:** The Bitcoin-native decentralized video platform where creators monetize directly with Lightning micropayments — no ads, no algorithms, no intermediaries.
 
@@ -132,7 +132,7 @@ The platform requires no account to browse, no email to sign up, and no advertis
 ```
 
 ### Sanctum Auth
-Authentication layer: <small>https://auth.shcok.network · https://github.com/shocknet/sanctum-client</small>
+Authentication layer: <small>[auth.shcok.network](https://auth.shcok.network) · [github.com/shocknet/sanctum-client](https://github.com/shocknet/sanctum-client)</small>
 
 **One-line:** Nostr-native passwordless authentication — let users log in with their sovereign identity, no email or phone required.
 
@@ -144,7 +144,7 @@ Built on Nostr public-key cryptography, Sanctum Auth allows users to authenticat
 ```
 
 ### Clink SDK
-Developer SDK: <small>https://CLINKme.dev · https://github.com/shocknet/CLINK</small>
+Developer SDK: <small>[CLINKme.dev](https://CLINKme.dev) · [github.com/shocknet/CLINK](https://github.com/shocknet/CLINK)</small>
 
 **One-line:** The web SDK that makes adding Bitcoin Lightning payments to any application a few-line integration.
 
