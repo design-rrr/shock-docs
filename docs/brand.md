@@ -4,7 +4,7 @@
 
 <iframe
   id="iFrameID"
-  src="/static/logos/brand.html"
+  src="/logos/brand.html"
   width="100%"
   height="1050"
   scrolling="no"
