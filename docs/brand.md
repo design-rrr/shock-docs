@@ -1,15 +1,6 @@
 # Brand Assets
 
-<script type="text/javascript">
-  function iframeLoaded() {
-      const iFrameID = document.getElementById('idIframe');
-      if(iFrameID) {
-            // Reset the height first, then set it to the content's height
-            iFrameID.height = "";
-            iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + "px";
-      }   
-  }
-</script>  
+<script type="text/javascript"> function iframeLoaded() { const iFrameID = document.getElementById('idIframe') if(iFrameID) {iFrameID.height = "";iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + "px";}}</script>  
 
 <iframe
   id="iFrameID"
