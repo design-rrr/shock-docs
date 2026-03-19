@@ -107,7 +107,7 @@ nav{position:sticky;top:0;z-index:100;background:var(--nav-bg);backdrop-filter:b
 .dl-btn{display:inline-flex;align-items:center;gap:8px;height:38px;padding:0 18px;border-radius:8px;font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;border:1px solid var(--border);background:var(--surface);color:var(--text-muted);transition:background .2s,color .2s,border-color .2s}
 .dl-btn:hover{border-color:var(--text-muted);color:var(--text)}
 .dl-btn .dl-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
-.dl-label{font-family:'DM Mono',monospace;font-size:8px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:8px;color:var(--text-dim);transition:color .25s}
+.dl-label{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:8px;color:var(--text-dim);transition:color .25s}
 
 /* ═══ PILLS ═══ */
 .pill{display:inline-flex;align-items:center;padding:3px 10px;border-radius:9910px;font-size:10px;letter-spacing:.1em;text-transform:uppercase;font-weight:400;transition:background .3s,border-color .3s,color .3s}
@@ -134,7 +134,7 @@ nav{position:sticky;top:0;z-index:100;background:var(--nav-bg);backdrop-filter:b
 .cmp-row{display:flex;align-items:center;gap:7px;margin-bottom:4px}
 .cmp-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
 .cmp-val{font-family:'DM Mono',monospace;font-size:10px;color:var(--text-muted);flex:1}
-.cmp-tag{font-family:'DM Mono',monospace;font-size:8px;text-transform:uppercase;letter-spacing:.08em;padding:1px 5px;border-radius:3px}
+.cmp-tag{font-family:'DM Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.08em;padding:1px 5px;border-radius:3px}
 .tag-d{background:rgba(255,255,255,.08);color:#888}
 .tag-l{background:rgba(0,0,0,.07);color:#888}
 
@@ -274,9 +274,9 @@ footer{padding:48px;background:var(--bg);border-top:1px solid var(--border);tran
     <div class="dl-row">
       <span class="dl-label" style="width:100%">Download SHOCKNET Mark + Wordmark</span>
       <button class="btn-sm btn-sn-sm" onclick="window.open('https://shock-docs.vercel.app/logos/Dark/SHOCKNET.zip');"></span color="#f1f1f1">◉ Dark theme SVG + PNG Logos.zip</span></button>
-      <button class="dl-btn" onclick="window.open('https://shock-docs.vercel.app/logos/Light/SHOCKNET.zip');"></span color="#111213">◉ Light theme SVG + PNG Logos.zip</span></button>
+      <button class="btn-sm btn-sn-out" onclick="window.open('https://shock-docs.vercel.app/logos/Light/SHOCKNET.zip');"></span color="#111213">◉ Light theme SVG + PNG Logos.zip</span></button>
       <button class="btn-sm btn-sn-sm" onclick="downloadSVG('shocknet','light')"></span color="#f1f1f1">◉ Dark Logo.svg</button>
-      <button class="dl-btn" onclick="downloadSVG('shocknet','dark')">◉ Light Logo.svg</button>
+      <button class="btn-sm btn-sn-out" onclick="downloadSVG('shocknet','dark')">◉ Light Logo.svg</button>
     </div>
   </div>
 </section>
@@ -425,9 +425,9 @@ footer{padding:48px;background:var(--bg);border-top:1px solid var(--border);tran
     <div class="demo-box"><span style="font-family:'DM Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:var(--text-dim);display:block;margin-bottom:16px">Small h:36px</span><div class="row"><button class="btn-sm btn-sw-sm">Send Sats</button><button class="btn-sm btn-sw-out" style="height:36px;padding:0 16px;border-radius:5px">Details</button><button class="btn-sm btn-ghost-sm">Dismiss</button><span class="pill pill-sw">SHOCKWALLET</span></div></div>
     <div class="dl-row"><span class="dl-label" style="width:100%">Download SHOCKWALLET Assets</span>
       <button class="btn-sm btn-sn-sm" onclick="window.open('https://shock-docs.vercel.app/logos/Dark/SHOCKWALLET.zip');"></span color="#f1f1f1">◉ Dark theme SVG + PNG Logos.zip</span></button>
-      <button class="dl-btn" onclick="window.open('https://shock-docs.vercel.app/logos/Light/SHOCKWALLET.zip');"></span color="#111213">◉ Light theme SVG + PNG Logos.zip</span></button>
+      <button class="btn-sm btn-sn-out" onclick="window.open('https://shock-docs.vercel.app/logos/Light/SHOCKWALLET.zip');"></span color="#111213">◉ Light theme SVG + PNG Logos.zip</span></button>
       <button class="btn-sm btn-sn-sm" onclick="downloadSVG('shockwallet','light')"></span color="#f1f1f1">◉ Dark Logo.svg</button>
-      <button class="dl-btn" onclick="downloadSVG('shockwallet','dark')">◉ Light Logo.svg</button>
+      <button class="btn-sm btn-sn-out" onclick="downloadSVG('shockwallet','dark')">◉ Light Logo.svg</button>
     </div>
   </div>
 </section>
@@ -487,9 +487,9 @@ footer{padding:48px;background:var(--bg);border-top:1px solid var(--border);tran
     <div class="demo-box"><span style="font-family:'DM Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:var(--text-dim);display:block;margin-bottom:16px">Small h:36px</span><div class="row"><button class="btn-sm btn-lp-sm">Post Now</button><button class="btn-sm btn-lp-out" style="height:36px;padding:0 16px;border-radius:5px">Follow</button><button class="btn-sm btn-ghost-sm">Mute</button><span class="pill pill-lp">LIGHTNING.pub</span></div></div>
     <div class="dl-row"><span class="dl-label" style="width:100%">Download LIGHTNING.pub Assets</span>
       <button class="btn-sm btn-sn-sm" onclick="window.open('https://shock-docs.vercel.app/logos/Dark/LIGHTNING.pub.zip');"></span color="#f1f1f1">◉ Dark theme SVG + PNG Logos.zip</span></button>
-      <button class="dl-btn" onclick="window.open('https://shock-docs.vercel.app/logos/Light/LIGHTNING.pub.zip');"></span color="#111213">◉ Light theme SVG + PNG Logos.zip</span></button>
+      <button class="btn-sm btn-sn-out" onclick="window.open('https://shock-docs.vercel.app/logos/Light/LIGHTNING.pub.zip');"></span color="#111213">◉ Light theme SVG + PNG Logos.zip</span></button>
       <button class="btn-sm btn-sn-sm" onclick="downloadSVG('lnpub','light')"></span color="#f1f1f1">◉ Dark Logo.svg</button>
-      <button class="dl-btn" onclick="downloadSVG('lnpub','dark')">◉ Light Logo.svg</button>
+      <button class="btn-sm btn-sn-out" onclick="downloadSVG('lnpub','dark')">◉ Light Logo.svg</button>
     </div>
   </div>
 </section>
@@ -553,9 +553,9 @@ footer{padding:48px;background:var(--bg);border-top:1px solid var(--border);tran
     <div class="demo-box"><span style="font-family:'DM Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:var(--text-dim);display:block;margin-bottom:16px">Small h:36px</span><div class="row"><button class="btn-sm btn-lv-sm">▶ Play</button><button class="btn-sm btn-lv-out" style="height:36px;padding:0 16px;border-radius:5px">Subscribe</button><button class="btn-sm btn-ghost-sm">Skip</button><span class="pill pill-lv">LIGHTNING.video</span></div></div>
     <div class="dl-row"><span class="dl-label" style="width:100%">Download LIGHTNING.video Assets</span>
       <button class="btn-sm btn-sn-sm" onclick="window.open('https://shock-docs.vercel.app/logos/Dark/LN.video.zip');"></span color="#f1f1f1">◉ Dark theme SVG + PNG Logos.zip</span></button>
-      <button class="dl-btn" onclick="window.open('https://shock-docs.vercel.app/logos/Light/LN.video.zip');"></span color="#111213">◉ Light theme SVG + PNG Logos.zip</span></button>
+      <button class="btn-sm btn-sn-out" onclick="window.open('https://shock-docs.vercel.app/logos/Light/LN.video.zip');"></span color="#111213">◉ Light theme SVG + PNG Logos.zip</span></button>
       <button class="btn-sm btn-sn-sm" onclick="downloadSVG('lnpvideo','light')"></span color="#f1f1f1">◉ Dark Logo.svg</button>
-      <button class="dl-btn" onclick="downloadSVG('lnpvideo','dark')">◉ Light Logo.svg</button>
+      <button class="btn-sm btn-sn-out" onclick="downloadSVG('lnpvideo','dark')">◉ Light Logo.svg</button>
     </div>
   </div>
 </section>
@@ -592,9 +592,9 @@ footer{padding:48px;background:var(--bg);border-top:1px solid var(--border);tran
     <div class="demo-box"><span style="font-family:'DM Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:var(--text-dim);display:block;margin-bottom:16px">Small h:36px</span><div class="row"><button class="btn-sm btn-cl-sm">CLINK</button><button class="btn-sm btn-cl-b-sm" style="height:36px;padding:0 16px;border-radius:5px;cursor:pointer">Boost</button><button class="btn-sm btn-cl-out" style="height:36px;padding:0 16px;border-radius:5px">History</button><span class="pill pill-cl">CLINK</span></div></div>
     <div class="dl-row"><span class="dl-label" style="width:100%">Download CLINK Assets</span>
       <button class="btn-sm btn-sn-sm" onclick="window.open('https://shock-docs.vercel.app/logos/Dark/CLINK.zip');"></span color="#f1f1f1">◉ Dark theme SVG + PNG Logos.zip</span></button>
-      <button class="dl-btn" onclick="window.open('https://shock-docs.vercel.app/logos/Light/CLINK.zip');"></span color="#111213">◉ Light theme SVG + PNG Logos.zip</span></button>
+      <button class="btn-sm btn-sn-out" onclick="window.open('https://shock-docs.vercel.app/logos/Light/CLINK.zip');"></span color="#111213">◉ Light theme SVG + PNG Logos.zip</span></button>
       <button class="btn-sm btn-sn-sm" onclick="downloadSVG('clink','light')"></span color="#f1f1f1">◉ Dark Logo.svg</button>
-      <button class="dl-btn" onclick="downloadSVG('clink','dark')">◉ Light Logo.svg</button>
+      <button class="btn-sm btn-sn-out" onclick="downloadSVG('clink','dark')">◉ Light Logo.svg</button>
     </div>
   </div>
 </section>
@@ -642,9 +642,9 @@ footer{padding:48px;background:var(--bg);border-top:1px solid var(--border);tran
     <div class="demo-box" style="margin-bottom:0"><span style="font-family:'DM Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:var(--text-dim);display:block;margin-bottom:16px">Small h:36px</span><div class="row"><button class="btn-sm btn-sa-sm">Secure Channel</button><button class="btn-sm btn-sa-out" style="height:36px;padding:0 16px;border-radius:5px">Details</button><button class="btn-sm btn-ghost-sm">Dismiss</button><span class="pill pill-sa">SANCTUM</span></div></div>
     <div class="dl-row"><span class="dl-label" style="width:100%">Download SANCTUM Assets</span>
       <button class="btn-sm btn-sn-sm" onclick="window.open('https://shock-docs.vercel.app/logos/Dark/SANCTUM.zip');"></span color="#f1f1f1">◉ Dark theme SVG + PNG Logos.zip</span></button>
-      <button class="dl-btn" onclick="window.open('https://shock-docs.vercel.app/logos/Light/SANCTUM.zip');"></span color="#111213">◉ Light theme SVG + PNG Logos.zip</span></button>
+      <button class="btn-sm btn-sn-out" onclick="window.open('https://shock-docs.vercel.app/logos/Light/SANCTUM.zip');"></span color="#111213">◉ Light theme SVG + PNG Logos.zip</span></button>
       <button class="btn-sm btn-sn-sm" onclick="downloadSVG('sanctum','light')"></span color="#f1f1f1">◉ Dark Logo.svg</button>
-      <button class="dl-btn" onclick="downloadSVG('sanctum','dark')">◉ Light Logo.svg</button>
+      <button class="btn-sm btn-sn-out" onclick="downloadSVG('sanctum','dark')">◉ Light Logo.svg</button>
     </div>
 
 
