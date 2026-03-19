@@ -1,49 +1,10 @@
 # Brand Assets
-- - - 
-## ShockNet
 
-#### Typography
-
-#### Icons
-
-#### Shapes
-
-#### Colors
-
-#### Logo
-
-- - - 
-## ShockWallet.app
-
-#### Colors
-
-#### Logo
-
-- - - 
-## Lightning.pub
-
-#### Colors
-
-#### Logo
-
-- - - 
-## Lightning.video
-
-#### Colors
-
-#### Logo
-
-- - - 
-## CLINK
-
-#### Colors
-
-#### Logo
-
-- - - 
-## SANCTUM
-
-#### Colors
-
-#### Logo
-
+<iframe
+  src="/static/logos/brand.html"
+  width="100%"
+  height="1050"
+  scrolling="no"
+  style={{ border: 'none' }}
+  title="SHOCKNET — Brand Manual"
+/>
