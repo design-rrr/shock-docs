@@ -5,8 +5,8 @@
 <iframe
   id="iFrameID"
   src="/logos/brand.html"
-  width="100%"
-  height="1050"
+  width="123%"
+  height="21000"
   scrolling="no"
   style={{ border: 'none' }}
   title="SHOCKNET — Brand Manual"
