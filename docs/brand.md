@@ -2,9 +2,9 @@
 
 <iframe
   src="/logos/brand.html"
-  width="123%"
+  width="156%"
   height="21000"
-  scrolling="no"
+  scrolling="yes"
   style={{ border: 'none' }}
   title="SHOCKNET — Brand Manual"
 />
