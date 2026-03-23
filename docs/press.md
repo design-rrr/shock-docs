@@ -25,7 +25,7 @@
 
 - Mar 4, 2024 https://bolt.fun/story/announcing-test-releases-of-shockwallet-and-lightningpub--1374/
 
-- Febr 9, 2024 [Lightning Talk with Justing Shocknet](https://www.thrillerbitcoin.com/lightning-talk-with-justin-shocknet/) - YT
+- Febr 9, 2024 [Lightning Talk with Justing Shocknet](https://www.thrillerbitcoin.com/lightning-talk-with-justin-shocknet/) - [YT](https://www.youtube.com/watch?v=6ZOOG5jmSZw)
 
 
 `2023`
