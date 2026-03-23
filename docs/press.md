@@ -7,8 +7,8 @@
 
 `2025`
 
+- Nov 21, 2025 - (LN.Video) — [Lightning Video: Interview with Justin Shocknet](https://lightning.video/e6467cf47b1da30bc95d24b85ad46a2a7190af72ea1b9ba38c96caf8499720ff)
 - Nov 9, 2025 - (YouTube) — [Are Spark and Ark Real Bitcoin L2s? Justin Explains](https://www.youtube.com/watch?v=0dFQb3uN89U&t=2293s)  
-- 2025 - (Lightning.Video) — [Lightning Video: Interview with Justin Shocknet](https://lightning.video/e6467cf47b1da30bc95d24b85ad46a2a7190af72ea1b9ba38c96caf8499720ff)
 
 `2024`
 
