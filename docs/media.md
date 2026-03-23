@@ -1,38 +1,38 @@
 # Media Kit
 
-Everything you need to cover ShockNet: offical social accounts, boilerplate copy, product descriptions, and [brand guidelines](/brand). Please read the usage guidelines before publishing.
+Everything you need to cover SHOCKNET: offical social accounts, boilerplate copy, product descriptions, and [brand guidelines](/brand). Please read the usage guidelines before publishing.
 
 
-## ShockNet Social Accounts
+## SHOCKNET Social Accounts
 
 - `Nostr` https://njump.to/npub1xvtwx6tduaxnn9v3y7uasskl277achgu0tu2qncmc7hdsz6y2zyqce64sa
 - `X` https://x.com/shockbtc
-- `YT` https://www.youtube.com/@shocknetwork
-- `LI` https://linkedin.com/company/shocknet
-- `GH` https://github.com/shocknet
+- `YT` https://www.youtube.com/@SHOCKNETwork
+- `LI` https://linkedin.com/company/SHOCKNET
+- `GH` https://github.com/SHOCKNET
 
 ## Company Boilerplate
 These approved copy blocks are cleared for use in press releases, articles, podcasts, and editorial coverage. Please use them verbatim and do not modify. Three lengths are provided to fit your editorial format.
 
 25 Words
 ```
-ShockNet builds open-source Bitcoin Lightning infrastructure — including Lightning.Pub, ShockWallet, and Lightning.Video — giving individuals and businesses sovereign control over their Lightning nodes and payments.
+SHOCKNET builds open-source Bitcoin Lightning infrastructure — including Lightning.Pub, ShockWallet, and Lightning.Video — giving individuals and businesses sovereign control over their Lightning nodes and payments.
 ```
 
 75 Words
 ```
-ShockNet is an open-source Bitcoin company building sovereign Lightning infrastructure. Its flagship products — Lightning.Pub, ShockWallet, and Lightning.Video — let individuals and businesses run Lightning nodes without technical expertise, manage accounts across multiple users, and monetize digital content directly with Bitcoin micropayments.
+SHOCKNET is an open-source Bitcoin company building sovereign Lightning infrastructure. Its flagship products — Lightning.Pub, ShockWallet, and Lightning.Video — let individuals and businesses run Lightning nodes without technical expertise, manage accounts across multiple users, and monetize digital content directly with Bitcoin micropayments.
 
-Founded in 2018 in Portland, Maine, ShockNet is backed by Fulgur Ventures and the Wolf NYC Lightning Accelerator. The company is building the infrastructure layer for the next generation of the Lightning Network.
+Founded in 2018 in Portland, Maine, SHOCKNET is backed by Fulgur Ventures and the Wolf NYC Lightning Accelerator. The company is building the infrastructure layer for the next generation of the Lightning Network.
 ```
 
 150 Words
 ```
-ShockNet is an open-source Bitcoin company headquartered in Portland, Maine, building the sovereign infrastructure layer for the Lightning Network. Founded in 2018, ShockNet's mission is to give every individual and business full ownership of their Lightning payments — no custodians, no intermediaries, no port forwarding.
+SHOCKNET is an open-source Bitcoin company headquartered in Portland, Maine, building the sovereign infrastructure layer for the Lightning Network. Founded in 2018, SHOCKNET's mission is to give every individual and business full ownership of their Lightning payments — no custodians, no intermediaries, no port forwarding.
 
 Its product suite includes Lightning.Pub, a Nostr-native node daemon that runs on anything from a Raspberry Pi to a VPS; ShockWallet, a remote-node Lightning wallet that communicates entirely over Nostr relays; Lightning.Video, a decentralized video platform monetized through Bitcoin micropayments; Sanctum Auth, a Nostr-native authentication layer; and the Clink SDK, which enables developers to embed Lightning payments into any web application.
 
-ShockNet is backed by Fulgur Ventures (pre-seed) and the Wolf NYC Lightning Accelerator (seed), and has been featured in CoinDesk, No Bullshit Bitcoin, Bolt.Fun, and Stacker News. The company is actively fundraising its next round to accelerate distribution and ecosystem growth
+SHOCKNET is backed by Fulgur Ventures (pre-seed) and the Wolf NYC Lightning Accelerator (seed), and has been featured in CoinDesk, No Bullshit Bitcoin, Bolt.Fun, and Stacker News. The company is actively fundraising its next round to accelerate distribution and ecosystem growth
 ```
 
 ## Key Facts Sheet
@@ -40,7 +40,7 @@ ShockNet is backed by Fulgur Ventures (pre-seed) and the Wolf NYC Lightning Acce
 | 2018 | 5 (+2 WIP) | 100% | >1000% |
 |---|---|---|---|
 | Year Founded |Products in the|Open-source| MoM user revenue growth |
-| Portland, Maine, USA | ShockNet ecosystem |MIT & Apache 2.0| Lightning.Video (2023) |
+| Portland, Maine, USA | SHOCKNET ecosystem |MIT & Apache 2.0| Lightning.Video (2023) |
 
 
 ## Shock Product Descriptions
@@ -48,7 +48,7 @@ Approved editorial description. Each block includes copy cleared for press use, 
 
 
 ### Lightning.Pub
-Bitcoin Bank: <small>[Lightning.pub](https://Lightning.pub) · [github.com/shocknet/Lightning.Pub](https://github.com/shocknet/Lightning.Pub)</small>
+Bitcoin Bank: <small>[Lightning.pub](https://Lightning.pub) · [github.com/SHOCKNET/Lightning.Pub](https://github.com/SHOCKNET/Lightning.Pub)</small>
 
 **One-line:** Share your node Bitcoin node, make it a Lightning Bank. Connect your community via Nostr.
 
@@ -60,7 +60,7 @@ Rather than exposing node APIs directly, Lightning.Pub uses Nostr relays as its 
 ```
 
 ### ShockWallet
-Bitcoin Dayly Spending: <small>[ShockWallet.app](https://shockwallet.app) · [github.com/shocknet/wallet2](https://github.com/shocknet/wallet2)</small>
+Bitcoin Dayly Spending: <small>[ShockWallet.app](https://shockwallet.app) · [github.com/SHOCKNET/wallet2](https://github.com/SHOCKNET/wallet2)</small>
 
 **One-line:** The non-custodial Bitcoin Lightning wallet for friends, family, and business.
 
@@ -72,7 +72,7 @@ Users can connect to their own Lightning.Pub node or to a trusted node run by so
 ```
 
 ### Lightning.Video
-Monetize Video with Bitcoin: <small>[LN.video](https://ln.video) · [github.com/shocknet/ClinkSDK](https://github.com/shocknet/ClinkSDK)</small>
+Monetize Video with Bitcoin: <small>[LN.video](https://ln.video) · [github.com/SHOCKNET/ClinkSDK](https://github.com/SHOCKNET/ClinkSDK)</small>
 
 **One-line:** Watch your favorite videos, zap your favorite vloggers, upload exclusive videos and share them with your community to turn your contents into a creative business.
 
@@ -84,25 +84,25 @@ The platform requires no account to browse, no email to sign up, and no advertis
 ```
 
 ### Sanctum Auth
-Authentication layer: <small>[auth.shcok.network](https://auth.shcok.network) · [github.com/shocknet/sanctum-client](https://github.com/shocknet/sanctum-client)</small>
+Authentication layer: <small>[auth.shcok.network](https://auth.shcok.network) · [github.com/SHOCKNET/sanctum-client](https://github.com/SHOCKNET/sanctum-client)</small>
 
 **One-line:** Nostr passwordless authentication and identity management for teams and power users.
 
 `DigitalID` - `Auth` - `Nostr-Native` - `Passwordless`
 ```
-Sanctum Auth is ShockNet's Nostr-native authentication layer, enabling applications to offer passwordless, sovereign login flows without email addresses, phone numbers, or OAuth providers.
+Sanctum Auth is SHOCKNET's Nostr-native authentication layer, enabling applications to offer passwordless, sovereign login flows without email addresses, phone numbers, or OAuth providers.
 
-Built on Nostr public-key cryptography, Sanctum Auth allows users to authenticate with any application in the ShockNet ecosystem — and with third-party apps that integrate the Clink SDK — using only a Nostr keypair. This removes the dependency on centralized identity providers while maintaining a familiar single-sign-on experience.
+Built on Nostr public-key cryptography, Sanctum Auth allows users to authenticate with any application in the SHOCKNET ecosystem — and with third-party apps that integrate the Clink SDK — using only a Nostr keypair. This removes the dependency on centralized identity providers while maintaining a familiar single-sign-on experience.
 ```
 
 ### Clink SDK
-Developer SDK: <small>[CLINKme.dev](https://CLINKme.dev) · [github.com/shocknet/CLINK](https://github.com/shocknet/CLINK)</small>
+Developer SDK: <small>[CLINKme.dev](https://CLINKme.dev) · [github.com/SHOCKNET/CLINK](https://github.com/SHOCKNET/CLINK)</small>
 
 **One-line:** Nostr-native interface for adding Bitcoin Lightning  payments to any application.
 
 `SDK` - `API` - `Developer Tools`
 ```
-Clink is ShockNet's JavaScript SDK for embedding Bitcoin Lightning payments into any web application. Developers can integrate Lightning payment flows, Lightning Address resolution, and Sanctum Auth login in a few lines of code, without needing to understand the underlying node or Nostr protocol details.
+Clink is SHOCKNET's JavaScript SDK for embedding Bitcoin Lightning payments into any web application. Developers can integrate Lightning payment flows, Lightning Address resolution, and Sanctum Auth login in a few lines of code, without needing to understand the underlying node or Nostr protocol details.
 
 Clink abstracts Lightning.Pub's API into a high-level, web-native interface, enabling rapid integration for wallets, e-commerce sites, content platforms, and developer tools that want to accept or send Bitcoin Lightning payments.
 ```
