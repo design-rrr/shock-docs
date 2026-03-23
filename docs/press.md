@@ -1,6 +1,3 @@
-Got it! Here’s the updated and properly formatted markdown with the **source name in parentheses after the date** and before the title.
-
-***
 
 # Press
 
@@ -43,7 +40,3 @@ Got it! Here’s the updated and properly formatted markdown with the **source n
 `2021`
 
 - Dec 29, 2021 - (CryptoNews) — [Lightning Video and Shocknet Feature](https://cryptonews.net/news/bitcoin/2953951/)
-
-***
-
-Would you like me to make the source names **consistent in style** - (e.g., always italicized or bolded) for better visual structure?
