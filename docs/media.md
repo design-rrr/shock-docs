@@ -1,55 +1,7 @@
 # Media Kit
 
-Everything you need to cover ShockNet: Logos, boilerplate copy, founder bios, product descriptions, brand guidelines, and press contacts — all in one place. Please read the usage guidelines before publishing.
+Everything you need to cover ShockNet: offical social accounts, boilerplate copy, product descriptions, and [brand guidelines](/brand). Please read the usage guidelines before publishing.
 
-## Founders & PR Contacts
-
-`Press Contact`
-**Justin Hilton**
-_Founder & CEO_
-- `𓅦` https://njump.to/npub1xvtwx6tduaxnn9v3y7uasskl277achgu0tu2qncmc7hdsz6y2zyqce64sa
-- `𝕏` [@shocknet_justin](https://x.com/shocknet_justin)
-- `🖄` [Telegram](https://t.me/justin_shocknet)
-- `✉` [justin@shocknet.dev](mailto:justin@shocknet.dev)
-- `⚡` [Stacker News](https://stacker.news/justin_shocknet/all)
-- `⌧` [LinkedIn](https://www.linkedin.com/in/justinhilton/)
-
-> <small>Response time: 48–72 hours: For embargoed or time-sensitive stories, please mark your subject line [EMBARGO] and include your publication date.</small>
-
-#### Bio
-
-Short
-```
-Justin Hilton is the founder and CEO of ShockNet, where he is building open-source infrastructure to make the Bitcoin Lightning Network accessible to individuals and businesses worldwide. He created one of the first Lightning wallets with LNURL support in 2018 and has been building in the Lightning and Nostr ecosystem ever since.
-```
-
-Long bio
-```
-Justin Hilton is the founder and CEO of ShockNet, the open-source Bitcoin company building sovereign infrastructure for the Lightning Network. Based in the US, Justin has been building in the Bitcoin space since 2018, when he created one of the first Lightning wallets to implement LNURL — a protocol that later became a cornerstone of the Lightning UX ecosystem.
-
-A self-taught developer with a systems-level view of decentralized infrastructure, Justin identified early that the biggest barrier to Lightning adoption was not the protocol itself, but the operational complexity of running a node. His answer — Lightning.Pub — is a Nostr-native daemon that abstracts away port forwarding, TLS, and full-node requirements entirely, running on hardware as modest as a Raspberry Pi.
-
-Justin participated in the inaugural Wolf NYC Lightning Accelerator cohort in 2022, one of eight startups selected globally, and has secured backing from Fulgur Ventures, the leading early-stage Lightning VC. He is a regular contributor to hackathons including Legends of Lightning, NostrHack, and Bitcoin Games, and is an active voice in the Stacker News and Nostr developer communities.
-```
-
-Quotes
->
-```
-"The Lightning Network's biggest problem isn't routing or liquidity — it's that running a node feels like configuring a server rack. We're fixing that. Lightning.Pub should feel as simple as installing an app."
-— Justin Hilton, Founder & CEO, ShockNet
-```
-
->
-```
-"We want to be the Lightning AWS — the infrastructure layer that every Lightning application can build on top of, without any of the operational headaches."
-— Justin Hilton, Fulgur Ventures interview, June 2023 (https://lightning.video/9cc6e69985c6384366f2181786dd07fa8a7efb7338d6eb61f42d1bc8c5b3ca3f)
-```
-
->
-```
-"Non-custodial doesn't have to mean hard. ShockWallet proves you can have full key ownership and still have a wallet that your mom could use."
-— Justin Hilton, Stacker News AMA, November 2023 (https://stacker.news/items/328510/)
-```
 
 ## ShockNet Social Accounts
 
@@ -76,7 +28,7 @@ Founded in 2018 in Portland, Maine, ShockNet is backed by Fulgur Ventures and th
 
 150 Words
 ```
-ShockNet is an open-source Bitcoin company headquartered in Portland, Maine, building the sovereign infrastructure layer for the Lightning Network. Founded in 2018 by Justin Hilton, ShockNet's mission is to give every individual and business full ownership of their Lightning payments — no custodians, no intermediaries, no port forwarding.
+ShockNet is an open-source Bitcoin company headquartered in Portland, Maine, building the sovereign infrastructure layer for the Lightning Network. Founded in 2018, ShockNet's mission is to give every individual and business full ownership of their Lightning payments — no custodians, no intermediaries, no port forwarding.
 
 Its product suite includes Lightning.Pub, a Nostr-native node daemon that runs on anything from a Raspberry Pi to a VPS; ShockWallet, a remote-node Lightning wallet that communicates entirely over Nostr relays; Lightning.Video, a decentralized video platform monetized through Bitcoin micropayments; Sanctum Auth, a Nostr-native authentication layer; and the Clink SDK, which enables developers to embed Lightning payments into any web application.
 
