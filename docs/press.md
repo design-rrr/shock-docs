@@ -20,11 +20,7 @@ https://linkedin.com/pulse/spotlight-shocknet-lightningvideo-krista-edmunds
 
 https://medium.com/@fulgur.ventures/shocknet-a-shock-to-video-monetization-models-and-more-cdba1c875161
 
-https://pitchbook.com/profiles/company/436868-02#overview // is this accurate info?
-
 https://stacker.news/items/328510/ (AMA)
-
-https://stacker.news/search?q=%22Shocknet%22&what=posts&sort=sats
 
 https://techcrunch.com/2023/05/25/take-a-look-at-wolfs-first-cohort-of-bitcoin-driven-startups/
 
