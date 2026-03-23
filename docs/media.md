@@ -25,7 +25,7 @@ Justin Hilton is the founder and CEO of ShockNet, where he is building open-sour
 
 Long bio
 ```
-Justin Hilton is the founder and CEO of ShockNet, the open-source Bitcoin company building sovereign infrastructure for the Lightning Network. Based in Portland, Maine, Justin has been building in the Bitcoin space since 2018, when he created one of the first Lightning wallets to implement LNURL — a protocol that later became a cornerstone of the Lightning UX ecosystem.
+Justin Hilton is the founder and CEO of ShockNet, the open-source Bitcoin company building sovereign infrastructure for the Lightning Network. Based in the US, Justin has been building in the Bitcoin space since 2018, when he created one of the first Lightning wallets to implement LNURL — a protocol that later became a cornerstone of the Lightning UX ecosystem.
 
 A self-taught developer with a systems-level view of decentralized infrastructure, Justin identified early that the biggest barrier to Lightning adoption was not the protocol itself, but the operational complexity of running a node. His answer — Lightning.Pub — is a Nostr-native daemon that abstracts away port forwarding, TLS, and full-node requirements entirely, running on hardware as modest as a Raspberry Pi.
 
