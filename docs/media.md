@@ -51,7 +51,7 @@ Rather than exposing node APIs directly, Lightning.Pub uses Nostr relays as its 
 ```
 
 ### ShockWallet
-Bitcoin Dayly Spending: <small>[ShockWallet.app](https://shockwallet.app) · [github.com/SHOCKNET/wallet2](https://github.com/SHOCKNET/wallet2)</small>
+Bitcoin Daily Spending: <small>[ShockWallet.app](https://shockwallet.app) · [github.com/SHOCKNET/wallet2](https://github.com/SHOCKNET/wallet2)</small>
 
 **One-line:** The non-custodial Bitcoin Lightning wallet for friends, family, and business.
 
