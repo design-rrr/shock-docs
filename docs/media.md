@@ -81,9 +81,9 @@ Authentication layer: <small>[auth.shcok.network](https://auth.shcok.network) ·
 
 `DigitalID` - `Auth` - `Nostr-Native` - `Passwordless`
 ```
-Sanctum Auth is SHOCKNET's Nostr-native authentication layer, enabling applications to offer passwordless, sovereign login flows without email addresses, phone numbers, or OAuth providers.
+Sanctum is SHOCKNET's Nostr-native authentication layer that unlocks bridging to legacy auth like email, delegation without key divulsion and enabling applications to offer passwordless login flows without.
 
-Built on Nostr public-key cryptography, Sanctum Auth allows users to authenticate with any application in the SHOCKNET ecosystem — and with third-party apps that integrate the Clink SDK — using only a Nostr keypair. This removes the dependency on centralized identity providers while maintaining a familiar single-sign-on experience.
+Built on Nostr public-key cryptography, Sanctum Auth allows users to authenticate with any application in the SHOCKNET ecosystem and any third-party apps that integrate the Clink SDK. Using only a Nostr keypair teams aim enable the use of a single key without the key owner having to share it. This removes the dependency on centralized identity providers while maintaining a familiar single-sign-on experience.
 ```
 
 ### Clink SDK
