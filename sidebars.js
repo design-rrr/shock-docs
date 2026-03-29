@@ -19,9 +19,12 @@ const sidebars = {
   // But you can create a sidebar manually
   shockRoot: [
     'about',
-    'terms/terms',
+    'brand',
     'contact',
+    'media',
     'press',
+    'privacy',
+    'terms/terms',
   ],
   wallet: [
     'wallet/intro',
@@ -31,11 +34,11 @@ const sidebars = {
   lnpub: [
     {type: 'doc', id: 'pub/intro', label: 'Intro'},
     'pub/configuration',
-    'pub/watchdog',
-    'pub/faq',
     'pub/docker',
     'pub/start9',
     'pub/umbrel',
+    'pub/watchdog',
+    'pub/faq',
     ],
   video: [
     'video/intro',
