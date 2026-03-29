@@ -33,6 +33,7 @@
 
 `2022`
 
+- Nov 6, 2022 - (Bolt.fun) - [Unfinished Business: Lightning.Pub and Shockwallet](https://bolt.fun/story/unfinished-business-lightningpub-and-shockwallet--331)
 - Aug 7, 2022 - (CoinDesk) — [Move Over Ethereum — Bitcoin’s Lightning Network Has Apps Too](https://coindesk.com/business/2022/08/07/move-over-ethereum-bitcoins-lightning-network-has-apps-too)  
 - Jul 18, 2022 - (The Bitcoin Manual) — [Bitcoin App Lightning Video](https://thebitcoinmanual.com/articles/bitcoin-app-lightning-video/)
 - Jan 7, 2022  - (Criptonoticias) — [Creadores de contenido podrán generar Bitcoin con nueva plataforma](https://www.criptonoticias.com/comunidad/entretenimiento/creadores-contenido-video-podran-generar-bitcoin-nueva-plataforma/)
