@@ -23,24 +23,17 @@ SHOCKNET builds open-source Bitcoin Lightning infrastructure — including Light
 ```
 SHOCKNET is an open-source Bitcoin company building sovereign Lightning infrastructure. Its flagship products — Lightning.Pub, ShockWallet, and Lightning.Video — let individuals and businesses run Lightning nodes without technical expertise, manage accounts across multiple users, and monetize digital content directly with Bitcoin micropayments.
 
-Founded in 2018 in Portland, Maine, SHOCKNET is backed by Fulgur Ventures and the Wolf NYC Lightning Accelerator. The company is building the infrastructure layer for the next generation of the Lightning Network.
+Founded in 2018 as US Delaware corp, SHOCKNET is backed by Fulgur Ventures and the Wolf NYC Lightning Accelerator. The company is building the infrastructure layer for the next generation of the Lightning Network.
 ```
 
 150 Words
 ```
-SHOCKNET is an open-source Bitcoin company headquartered in Portland, Maine, building the sovereign infrastructure layer for the Lightning Network. Founded in 2018, SHOCKNET's mission is to give every individual and business full ownership of their Lightning payments — no custodians, no intermediaries, no port forwarding.
+SHOCKNET is an open-source Bitcoin company building the sovereign infrastructure layer for the Lightning Network. Founded in 2018, SHOCKNET's mission is to give every individual and business full ownership of their Lightning payments — no custodians, no intermediaries, no port forwarding.
 
 Its product suite includes Lightning.Pub, a Nostr-native node daemon that runs on anything from a Raspberry Pi to a VPS; ShockWallet, a remote-node Lightning wallet that communicates entirely over Nostr relays; Lightning.Video, a decentralized video platform monetized through Bitcoin micropayments; Sanctum Auth, a Nostr-native authentication layer; and the Clink SDK, which enables developers to embed Lightning payments into any web application.
 
 SHOCKNET is backed by Fulgur Ventures (pre-seed) and the Wolf NYC Lightning Accelerator (seed), and has been featured in CoinDesk, No Bullshit Bitcoin, Bolt.Fun, and Stacker News. The company is actively fundraising its next round to accelerate distribution and ecosystem growth
 ```
-
-## Key Facts Sheet
-
-| 2018 | 5 (+2 WIP) | 100% | >1000% |
-|---|---|---|---|
-| Year Founded |Products in the|Open-source| MoM user revenue growth |
-| Portland, Maine, USA | SHOCKNET ecosystem |MIT & Apache 2.0| Lightning.Video (2023) |
 
 
 ## Shock Product Descriptions
