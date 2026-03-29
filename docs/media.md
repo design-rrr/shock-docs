@@ -30,7 +30,7 @@ SHOCKNET is an open-source Bitcoin company building the sovereign infrastructure
 
 Its product suite includes Lightning.Pub, a Nostr-native node daemon that runs on anything from a Raspberry Pi to a VPS; ShockWallet, a remote-node Lightning wallet that communicates entirely over Nostr relays; Lightning.Video, a decentralized video platform monetized through Bitcoin micropayments; Sanctum Auth, a Nostr-native authentication layer; and the Clink SDK, which enables developers to embed Lightning payments into any web application.
 
-SHOCKNET is backed by Fulgur Ventures (pre-seed) and the Wolf NYC Lightning Accelerator (seed), and has been featured in CoinDesk, No Bullshit Bitcoin, Bolt.Fun, and Stacker News. The company is actively fundraising its next round to accelerate distribution and ecosystem growth
+SHOCKNET is backed by Fulgur Ventures (pre-seed) and the Wolf NYC Lightning Accelerator (seed), and has been featured in CoinDesk, Bitcoin Magazine, Bitfinex, and Techcrunch. The company is actively fundraising its next round to accelerate distribution and ecosystem growth
 ```
 
 
