@@ -50,16 +50,16 @@ ShockWallet is a non-custodial Lightning wallet that connects to a self-hosted L
 Users can connect to their own Lightning.Pub node or to a trusted node run by someone they know — giving them full key ownership with the convenience of a custodial app. ShockWallet supports LNURL, Lightning Addresses, NIP05-backed Lightning Addresses, and standard on-chain Bitcoin transactions.
 ```
 
-### LIGHTNING.Pub
+### LIGHTNING.pub
 Bitcoin Bank: <small>[Lightning.pub](https://Lightning.pub) · [github.com/SHOCKNET/Lightning.Pub](https://github.com/SHOCKNET/Lightning.Pub)</small>
 
 **One-line:** Share your node Bitcoin node, make it a Lightning Bank. Connect your community via Nostr.
 
 `Node Middleware` - `Nostr-Native` - `Open Source`
 ```
-Lightning.Pub is an open-source, Nostr-native Lightning node daemon that turns any server, Raspberry Pi, NUC, or VPS into a shared Lightning node — no port forwarding, no TLS configuration, and no Bitcoin full node required.
+LIGHTNING.pub is an open-source, Nostr-native Lightning node daemon that turns any server, Raspberry Pi, NUC, or VPS into a shared Lightning node — no port forwarding, no TLS configuration, and no Bitcoin full node required.
 
-Rather than exposing node APIs directly, Lightning.Pub uses Nostr relays as its communication layer, meaning the node operator never needs to open firewall ports or manage SSL certificates. Multiple users can share a single node through Lightning.Pub's multi-layer account system, enabling "Uncle Jim" operators to offer Lightning services to family, friends, or customers with full non-custodial guarantees.
+Rather than exposing node APIs directly, LIGHTNING.pub uses Nostr relays as its communication layer, meaning the node operator never needs to open firewall ports or manage SSL certificates. Multiple users can share a single node through Lightning.Pub's multi-layer account system, enabling "Uncle Jim" operators to offer Lightning services to family, friends, or customers with full non-custodial guarantees.
 ```
 
 ### LN.video
@@ -69,9 +69,9 @@ Monetize Video with Bitcoin: <small>[LN.video](https://ln.video) · [github.com/
 
 `Video Platform` - `Pay per View` - `Paywall` - `Micropayments`
 ```
-Lightning.Video is a decentralized video platform powered by the Bitcoin Lightning Network and WebTorrent. Creators upload directly and set their own prices — from free to per-view micropayments — with every payment going directly to the creator's Lightning wallet, with no intermediary taking a cut.
+LIGHTNING.video is a decentralized video platform powered by the Bitcoin Lightning Network and WebTorrent. Creators upload directly and set their own prices — from free to per-view micropayments — with every payment going directly to the creator's Lightning wallet, with no intermediary taking a cut.
 
-The platform requires no account to browse, no email to sign up, and no advertiser relationships. Creators retain full control of their content and monetization strategy. Lightning.Video launched publicly in September 2022 and recorded a greater than 1000% month-over-month increase in user-generated revenues in June 2023.
+The platform requires no account to browse, no email to sign up, and no advertiser relationships. Creators retain full control of their content and monetization strategy. LN.Video launched publicly in September 2022 and recorded a greater than 1000% month-over-month increase in user-generated revenues in June 2023.
 ```
 
 ### SANCTUM
@@ -81,9 +81,9 @@ Authentication layer: <small>[auth.shcok.network](https://auth.shcok.network) ·
 
 `DigitalID` - `Auth` - `Nostr-Native` - `Passwordless`
 ```
-Sanctum is SHOCKNET's Nostr-native authentication layer that unlocks bridging to legacy auth like email, delegation without key divulsion and enabling applications to offer passwordless login flows without.
+SANCTUM is SHOCKNET's Nostr-native authentication layer that unlocks bridging to legacy auth like email, delegation without key divulsion and enabling applications to offer passwordless login flows without.
 
-Built on Nostr public-key cryptography, Sanctum Auth allows users to authenticate with any application in the SHOCKNET ecosystem and any third-party apps that integrate the Clink SDK. Using only a Nostr keypair teams aim enable the use of a single key without the key owner having to share it. This removes the dependency on centralized identity providers while maintaining a familiar single-sign-on experience.
+Built on Nostr public-key cryptography, SANCTUM allows users to authenticate with any application in the SHOCKNET ecosystem and any third-party apps that integrate the CLINK developer SDK. Using only a Nostr keypair teams aim enable the use of a single key without the key owner having to share it. This removes the dependency on centralized identity providers while maintaining a familiar single-sign-on experience.
 ```
 
 ### CLINK
@@ -93,8 +93,8 @@ Developer SDK: <small>[CLINKme.dev](https://CLINKme.dev) · [github.com/SHOCKNET
 
 `SDK` - `API` - `Developer Tools`
 ```
-Clink is SHOCKNET's JavaScript SDK for embedding Bitcoin Lightning payments into any web application. Developers can integrate Lightning payment flows, Lightning Address resolution, and Sanctum Auth login in a few lines of code, without needing to understand the underlying node or Nostr protocol details.
+CLINK is SHOCKNET's JavaScript SDK for embedding Bitcoin Lightning payments into any web application. Developers can integrate Lightning payment flows, lightning address resolution, and SANCTUM auth login in a few lines of code, without needing to understand the underlying node or Nostr protocol details.
 
-Clink abstracts Lightning.Pub's API into a high-level, web-native interface, enabling rapid integration for wallets, e-commerce sites, content platforms, and developer tools that want to accept or send Bitcoin Lightning payments.
+CLINK abstracts Lightning.Pub's API into a high-level, web-native interface, enabling rapid integration for wallets, e-commerce sites, content platforms, and developer tools that want to accept or send Bitcoin Lightning payments.
 ```
 
