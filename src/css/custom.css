@@ -261,15 +261,15 @@ html[data-theme='dark'] {
 
 .navbar__brand {
   font-family:    var(--ifm-heading-font-family);
-  font-weight:    400;
-  letter-spacing: -0.014em;
+  font-weight:    300;
+  letter-spacing: 0.07em;
   font-size:      18px;
 }
 
 .navbar__link {
   font-family:    'DM Mono', monospace;
-  font-size:      10px;
-  letter-spacing: 0.15em;
+  font-size:      12px;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   font-weight:    400;
 }
@@ -330,6 +330,7 @@ html[data-theme='dark'] {
   border-left: 1px solid var(--ifm-toc-border-color);
   font-family: 'DM Mono', monospace;
   font-size:   12px;
+  letter-spacing: 0.07em;
 }
 
 .table-of-contents__link {
