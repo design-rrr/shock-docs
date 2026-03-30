@@ -5,7 +5,7 @@ slug: /
 
 # The open platform for Lightning + Nostr apps
 
-SHOCKNET is a decentralized ecosystem built on the Lightning Network, designed to make the internet faster, more private, and user-controlled. It brings together a suite of products that work in harmony to reshape digital interaction. 
+SHOCKNET is a FOSS ecosystem that operates in the Bitcoin Lightning Network and Nostr ecosystem, designed to make the internet faster, more private, and user-controlled. It brings together a suite of products that work in harmony to reshape digital interaction. 
 
 At its core is [SHOCKWALLET](https://SHOCK.network), a non-custodial Lightning wallet that blends seamless Bitcoin payments with social connectivity, ensuring users retain full control of both funds and identity. This spirit of empowerment extends to [LIGHTNING.pub](https://lightning.pub), a censorship-resistant publishing platform where creators can share and monetize their work directly through Lightning payments. 
 
