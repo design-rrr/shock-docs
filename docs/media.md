@@ -5,6 +5,7 @@ Everything you need to cover SHOCKNET: offical social accounts, boilerplate copy
 
 ## SHOCKNET Social Accounts
 
+- `Community` https://t.me/shockbtc
 - `Nostr` https://njump.to/npub1xvtwx6tduaxnn9v3y7uasskl277achgu0tu2qncmc7hdsz6y2zyqce64sa
 - `X` https://x.com/shockbtc
 - `GH` https://github.com/SHOCKNET
