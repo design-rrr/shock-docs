@@ -5,10 +5,10 @@ Everything you need to cover SHOCKNET: offical social accounts, boilerplate copy
 
 ## SHOCKNET Social Accounts
 
-- `Community` https://t.me/shockbtc
+- `Telegram` https://t.me/shockbtc
 - `Nostr` https://njump.to/npub1xvtwx6tduaxnn9v3y7uasskl277achgu0tu2qncmc7hdsz6y2zyqce64sa
+- `GitHub` https://github.com/SHOCKNET
 - `X` https://x.com/shockbtc
-- `GH` https://github.com/SHOCKNET
 
 ## Company Boilerplate
 These approved copy blocks are cleared for use in press releases, articles, podcasts, and editorial coverage. Please use them verbatim and do not modify. Three lengths are provided to fit your editorial format.
