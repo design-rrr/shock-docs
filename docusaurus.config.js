@@ -9,8 +9,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Shock Docs',
-  tagline: 'Guides and information for ShockWallet, Lightning.Video, Lightning.Pub, and Sanctum Auth', 
-  favicon: 'img/logo.png',
+  tagline: 'Guides and information for SHOCKWALLET, LIGHTNING.pub, LN.video, SANCTUM & CLINK', 
+  favicon: '/favicon/favicon.png',
 
   // Set the production url of your site here
   url: 'https://docs.shock.network',
