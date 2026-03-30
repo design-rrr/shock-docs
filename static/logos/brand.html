@@ -49,9 +49,15 @@ section{padding:96px 0;border-bottom:1px dashed var(--border);transition:border-
 section:last-child{border-bottom:none}
 
 /* ═══ TYPE ═══ */
-/* NOTE: Latin Modern Mono Condensed — not Light Condensed */
-h1,h2,h3,h4,h5,h6{font-family: 'DM Mono', 'Courier New', monospace; font-weight: 600; letter-spacing: .04em;line-height:1.15;color:var(--text);transition:color .25s}
-h1{font-size:42px}h2{font-size:36px}h3{font-size:24px}h4{font-size:21px}h5{font-size:18px}h6{font-size:16px;text-transform:uppercase;letter-spacing:.08em}
+h1,h2,h3,h4,h5,h6{font-family: 'DM Mono', 'Courier New', monospace; line-height:1.15;color:var(--text);transition:color .25s}
+h1, h2, h3 {font-weight: 300 !important}
+h4, h5, h6 {font-weight: 400 !important}
+  h1 {font-size:42px; letter-spacing: -.042em}
+  h2 {font-size:36px; letter-spacing: -.021em}
+  h3 {font-size:24px; letter-spacing: -.014em}
+  h4 {font-size:21px; letter-spacing: -.007em}
+  h5 {font-size:18px; letter-spacing: .007em}
+  h6 {font-size:16px; letter-spacing: .042em; text-transform:uppercase;}
 p{font-size:16px;color:var(--text-muted);line-height:1.75;transition:color .25s}
 .section-tag{font-family:'DM Mono',monospace;font-size:10px;color:var(--text-dim);letter-spacing:.2em;text-transform:uppercase;margin-bottom:10px;display:block;transition:color .25s}
 .mono{font-family:'DM Mono',monospace;font-size:12px;color:var(--text-dim);letter-spacing:.05em;transition:color .25s}
@@ -232,7 +238,7 @@ footer{padding:48px;background:var(--bg);border-top:1px solid var(--border);tran
 .voice-pillars{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:40px}
 .voice-pill-card{border-radius:10px;border:1px solid var(--border);background:var(--surface);padding:24px 20px}
 .vpc-num{font-family:'DM Mono',monospace;font-size:9px;color:var(--text-dim);letter-spacing:.2em;margin-bottom:12px;display:block}
-.vpc-h{font-size:18px;font-family:'Latin Modern Mono Condensed','Courier New',monospace;color:var(--text);margin-bottom:8px}
+.vpc-h{font-size:18px;font-family:'DM Mono','Courier New',monospace;color:var(--text);margin-bottom:8px}
 .vpc-p{font-size:12px;color:var(--text-muted);line-height:1.6}
 .tone-matrix{width:100%;border-collapse:collapse;margin-bottom:40px}
 .tone-matrix th{font-family:'DM Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:var(--text-dim);padding:10px 14px;text-align:left;border-bottom:1px solid var(--border)}
@@ -844,15 +850,15 @@ footer{padding:48px;background:var(--bg);border-top:1px solid var(--border);tran
     <div style="display:flex;align-items:center;gap:16px;margin-bottom:8px"><div class="product-bar" style="background:var(--text-dim)"></div><div><span class="section-tag">08 - STYLE</span><h2>Typography & Fonts</h2></div></div>
 
     <div class="rule"></div>
-    <p style="max-width:580px;margin-bottom:36px">Three typefaces form the system. Latin Modern Mono Condensed anchors all display and heading usage. Inter handles all interface copy. DM Mono handles supporting and technical text. All three are free and open-source.</p>
+    <p style="max-width:580px;margin-bottom:36px">Three typefaces form the system. DM Mono anchors all display and heading usage. Inter handles all interface copy. DM Mono handles supporting and technical text. All three are free and open-source.</p>
 
     <!-- TYPE SPECIMENS -->
-    <div class="type-s"><span class="meta">Latin Modern Mono Condensed — H1 / 42px</span><h1>The Future of Lightning</h1></div>
-    <div class="type-s"><span class="meta">Latin Modern Mono Condensed — H2 / 36px</span><h2>Open Payments Network</h2></div>
-    <div class="type-s"><span class="meta">Latin Modern Mono Condensed — H3 / 24px</span><h3>Decentralized Social Layer</h3></div>
-    <div class="type-s"><span class="meta">Latin Modern Mono Condensed — H4 / 21px</span><h4>Connect Creators and Audiences</h4></div>
-    <div class="type-s"><span class="meta">Latin Modern Mono Condensed — H5 / 18px</span><h5>Bitcoin-native Streaming Protocol</h5></div>
-    <div class="type-s" style="margin-bottom:24px"><span class="meta">Latin Modern Mono Condensed — H6 / 16px / ALLCAPS</span><h6>Section Heading Example</h6></div>
+    <div class="type-s"><span class="meta">DM Mono — H1 / 42px / 300 / -0.042 </span><h1>The Future of Lightning</h1></div>
+    <div class="type-s"><span class="meta">DM Mono — H2 / 36px / 300 / -0.021 </span><h2>Open Payments Network</h2></div>
+    <div class="type-s"><span class="meta">DM Mono — H3 / 24px / 300 / -0.014 </span><h3>Decentralized Social Layer</h3></div>
+    <div class="type-s"><span class="meta">DM Mono — H4 / 21px / 400 / -0.007 </span><h4>Connect Creators and Audiences</h4></div>
+    <div class="type-s"><span class="meta">DM Mono — H5 / 18px / 400 / +0.007 </span><h5>Bitcoin-native Streaming Protocol</h5></div>
+    <div class="type-s" style="margin-bottom:24px"><span class="meta">DM Mono — H6 / 16px / 400 / +0.042  / ALLCAPS</span><h6>Section Heading Example</h6></div>
     <div class="type-s"><span class="meta">Inter Regular — 16px / Body Copy</span><p style="color:var(--text)">SHOCKNET is an open infrastructure layer enabling censorship-resistant payments, publishing, and media over the Bitcoin Lightning Network.</p></div>
     <div class="type-s"><span class="meta">Inter Medium — 16px / Buttons & CTAs</span><p style="font-weight:500;color:var(--text)">Get Started · Connect Wallet · Send Payment · View Dashboard</p></div>
     <div class="type-s"><span class="meta">Inter Regular — 10px / Labels & Pills</span><div class="row" style="gap:8px;flex-wrap:wrap"><span class="pill pill-aa">Alpha</span><span class="pill pill-def">Beta</span><span class="pill pill-sw2">BLUE</span><span class="pill pill-sw">CYAN</span><span class="pill pill-sa">GREEN</span><span class="pill pill-cy">YELLOW</span><span class="pill pill-lp">ORANGE PILL</span><span class="pill pill-lv">RED PILL</span><span class="pill pill-lp2">MAGENTA</span><span class="pill pill-cl">PURPLE PILL</span></div></div>
@@ -863,7 +869,7 @@ footer{padding:48px;background:var(--bg);border-top:1px solid var(--border);tran
     <p style="margin-bottom:24px;max-width:560px;font-size:14px">All three typefaces in the SHOCKNET system are free and open-source. Download them directly from their respective foundries.</p>
     <div class="g3" style="gap:14px">
       <div class="font-card">
-        <h5>Latin Modern Mono</h5>
+        <h5>DM Mono</h5>
         <span class="fc-sub">Display &amp; Headings · GUST e-Foundry</span>
         <p>A monospaced type family derived from Donald Knuth's Computer Modern. The Condensed variant is used for all SHOCKNET headings and display text.</p>
         <a href="https://www.gust.org.pl/gust/projects/e-foundry/latin-modern" target="_blank" rel="noopener" class="font-link">gust.org.pl — Download</a>

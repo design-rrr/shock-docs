@@ -1,0 +1,125 @@
+/*
+ * ═══════════════════════════════════════════════════════════════════════════
+ *  SHOCKNET — LIGHTNING.pub  ·  Product Stylesheet
+ *  shocknet-lnpub.css  ·  v1.2
+ * ═══════════════════════════════════════════════════════════════════════════
+ *
+ *  LOAD AFTER shocknet-global.css
+ *
+ *  Colors
+ *  ─────────────────────────────────────────────────────────────────────────
+ *  Path A  Orange   dark #FF8A00  light #FF9900   (mark upper arc)
+ *  Path B  Magenta  dark #F040F5  light #D75AD7   (mark lower arc)
+ *
+ *  Product: Bitcoin Lightning node infrastructure — channels, routing,
+ *  liquidity, peers, invoices, performance.
+ *
+ * ═══════════════════════════════════════════════════════════════════════════
+ */
+
+
+/* ── Raw color variables ────────────────────────────────────────────────── */
+
+:root,
+[data-theme="dark"] {
+  --lp-a: #FF8A00;   /* Orange  · Broadcast */
+  --lp-b: #F040F5;   /* Magenta · Relay     */
+}
+
+[data-theme="light"] {
+  --lp-a: #FF9900;
+  --lp-b: #D75AD7;
+}
+
+
+/* ── Semantic product tokens ────────────────────────────────────────────── */
+
+[data-product="lnpub"] {
+  --prod-a:        var(--lp-a);
+  --prod-b:        var(--lp-b);
+  --prod-on-a:     #111213;
+  --prod-on-b:     #F1F1F1;
+  --prod-gradient: linear-gradient(90deg, var(--lp-a), var(--lp-b));
+}
+
+
+/* ── Buttons ────────────────────────────────────────────────────────────── */
+
+.btn-lp,
+.btn-lp-sm {
+  background: linear-gradient(90deg, var(--lp-a), var(--lp-b));
+  color: #ffffff;
+}
+.btn-lp:hover,
+.btn-lp-sm:hover { box-shadow: 0 0 20px rgba(255,138,0,.22); }
+
+.btn-lp-a {
+  background:    var(--lp-a);
+  border:        1px solid var(--lp-a);
+  color:         #111213;
+}
+
+.btn-lp-b {
+  background:    var(--lp-b);
+  border:        1px solid var(--lp-b);
+  color:         #F1F1F1;
+}
+
+.btn-lp-out {
+  background:    transparent;
+  border:        1px solid var(--lp-a);
+  color:         var(--lp-a);
+}
+.btn-lp-out:hover { box-shadow: 0 0 20px rgba(255,138,0,.22); }
+
+.btn-lp-in {
+  background:    transparent;
+  border:        1px solid var(--lp-b);
+  color:         var(--lp-b);
+}
+.btn-lp-in:hover { box-shadow: 0 0 20px rgba(240,64,245,.22); }
+
+
+/* ── Pills ──────────────────────────────────────────────────────────────── */
+
+.pill-lp {
+  background:  color-mix(in srgb, var(--lp-a) 14%, transparent);
+  border:      1px solid var(--lp-a);
+  color:       var(--lp-a);
+}
+.pill-lp2 {
+  background:  color-mix(in srgb, var(--lp-b) 14%, transparent);
+  border:      1px solid var(--lp-b);
+  color:       var(--lp-b);
+}
+
+[data-theme="light"] .pill-lp  { color: #CC7700; border-color: #FF9900; background: color-mix(in srgb, #FF9900 14%, transparent); }
+[data-theme="light"] .pill-lp2 { color: #A83FA8; border-color: #D75AD7; background: color-mix(in srgb, #D75AD7 14%, transparent); }
+
+
+/* ── Callout tint ───────────────────────────────────────────────────────── */
+
+.callout--lp {
+  background:   color-mix(in srgb, var(--lp-a) 7%,  transparent);
+  border-color: color-mix(in srgb, var(--lp-a) 20%, transparent);
+}
+
+
+/* ── Icon cell hover ────────────────────────────────────────────────────── */
+
+.icon-cell--lp:hover { background: color-mix(in srgb, var(--lp-a) 10%, transparent); }
+
+
+/* ── Form focus ─────────────────────────────────────────────────────────── */
+
+[data-product="lnpub"] input:focus,
+[data-product="lnpub"] textarea:focus,
+[data-product="lnpub"] select:focus {
+  border-color: var(--lp-a);
+  box-shadow:   0 0 0 2px color-mix(in srgb, var(--lp-a) 20%, transparent);
+}
+
+
+/* ── Product bar accent ─────────────────────────────────────────────────── */
+
+.product-bar--lp { background: linear-gradient(180deg, var(--lp-a), var(--lp-b)); }

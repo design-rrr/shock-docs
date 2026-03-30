@@ -1,0 +1,135 @@
+/*
+ * ═══════════════════════════════════════════════════════════════════════════
+ *  SHOCKNET — SHOCKWALLET  ·  Product Stylesheet
+ *  shocknet-shockwallet.css  ·  v1.2
+ * ═══════════════════════════════════════════════════════════════════════════
+ *
+ *  LOAD AFTER shocknet-global.css
+ *
+ *  Colors
+ *  ─────────────────────────────────────────────────────────────────────────
+ *  Path A  Cyan    dark #1BCFE0  light #4FD6F0   (mark upper arc)
+ *  Path B  Blue    dark #3A7BFF  light #2E6DCE   (mark lower arc)
+ *
+ *  Tokens exposed on <html> by this file:
+ *    --sw-a   --sw-b   (raw, always available regardless of element scope)
+ *
+ *  Usage:  import this file on any SHOCKWALLET page.
+ *  The product colors are available globally via --sw-a / --sw-b.
+ *  For scoped context (auto-resolve via --prod-a/b), wrap content in:
+ *    <div data-product="shockwallet"> … </div>
+ *
+ * ═══════════════════════════════════════════════════════════════════════════
+ */
+
+
+/* ── Raw color variables ────────────────────────────────────────────────── */
+
+:root,
+[data-theme="dark"] {
+  --sw-a: #1BCFE0;   /* Cyan  · Transmit */
+  --sw-b: #3A7BFF;   /* Blue  · Route    */
+}
+
+[data-theme="light"] {
+  --sw-a: #4FD6F0;
+  --sw-b: #2E6DCE;
+}
+
+
+/* ── Semantic product tokens (data-product scope) ───────────────────────── */
+
+[data-product="shockwallet"] {
+  --prod-a:        var(--sw-a);
+  --prod-b:        var(--sw-b);
+  --prod-on-a:     #111213;
+  --prod-on-b:     #F1F1F1;
+  --prod-gradient: linear-gradient(90deg, var(--sw-a), var(--sw-b));
+}
+
+
+/* ── Buttons ────────────────────────────────────────────────────────────── */
+
+/* Gradient primary (default CTA) */
+.btn-sw,
+.btn-sw-sm {
+  background: linear-gradient(90deg, var(--sw-a), var(--sw-b));
+  color: #ffffff;
+}
+.btn-sw:hover,
+.btn-sw-sm:hover { box-shadow: 0 0 20px rgba(27,207,224,.22); }
+
+/* Solid A — Cyan */
+.btn-sw-a {
+  background:    var(--sw-a);
+  border:        1px solid var(--sw-a);
+  color:         #111213;
+}
+
+/* Solid B — Blue */
+.btn-sw-b {
+  background:    var(--sw-b);
+  border:        1px solid var(--sw-b);
+  color:         #F1F1F1;
+}
+
+/* Outline A — Cyan stroke */
+.btn-sw-out {
+  background:    transparent;
+  border:        1px solid var(--sw-a);
+  color:         var(--sw-a);
+}
+.btn-sw-out:hover { box-shadow: 0 0 20px rgba(27,207,224,.22); }
+
+/* Outline B — Blue stroke */
+.btn-sw-in {
+  background:    transparent;
+  border:        1px solid var(--sw-b);
+  color:         var(--sw-b);
+}
+.btn-sw-in:hover { box-shadow: 0 0 20px rgba(58,123,255,.22); }
+
+
+/* ── Pills ──────────────────────────────────────────────────────────────── */
+
+.pill-sw {
+  background:  color-mix(in srgb, var(--sw-a) 14%, transparent);
+  border:      1px solid var(--sw-a);
+  color:       var(--sw-a);
+}
+.pill-sw2 {
+  background:  color-mix(in srgb, var(--sw-b) 14%, transparent);
+  border:      1px solid var(--sw-b);
+  color:       var(--sw-b);
+}
+
+[data-theme="light"] .pill-sw  { color: #2E6DCE; border-color: #4FD6F0; background: color-mix(in srgb, #4FD6F0 14%, transparent); }
+[data-theme="light"] .pill-sw2 { color: #2E6DCE; border-color: #2E6DCE; background: color-mix(in srgb, #2E6DCE 14%, transparent); }
+
+
+/* ── Callout tint ───────────────────────────────────────────────────────── */
+
+.callout--sw {
+  background:  color-mix(in srgb, var(--sw-a) 7%,  transparent);
+  border-color: color-mix(in srgb, var(--sw-a) 20%, transparent);
+}
+
+
+/* ── Icon cell hover ────────────────────────────────────────────────────── */
+
+.icon-cell--sw:hover { background: color-mix(in srgb, var(--sw-a) 10%, transparent); }
+
+
+/* ── Form focus ─────────────────────────────────────────────────────────── */
+
+[data-product="shockwallet"] input:focus,
+[data-product="shockwallet"] textarea:focus,
+[data-product="shockwallet"] select:focus {
+  border-color: var(--sw-a);
+  box-shadow:   0 0 0 2px color-mix(in srgb, var(--sw-a) 20%, transparent);
+}
+
+
+/* ── Product bar accent ─────────────────────────────────────────────────── */
+
+.product-bar--sw { background: linear-gradient(180deg, var(--sw-a), var(--sw-b)); }
