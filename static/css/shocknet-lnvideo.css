@@ -1,0 +1,97 @@
+/*
+ * ═══════════════════════════════════════════════════════════════════════════
+ *  SHOCKNET — LIGHTNING.video  ·  Product Stylesheet
+ *  shocknet-lnvideo.css  ·  v1.2
+ * ═══════════════════════════════════════════════════════════════════════════
+ *
+ *  LOAD AFTER shocknet-global.css
+ *
+ *  Colors
+ *  ─────────────────────────────────────────────────────────────────────────
+ *  Single hue — both mark paths share the same color.
+ *  Red   dark #FF0050   light #FF3366
+ *
+ *  Product: Bitcoin-native video streaming with pay-per-view on Lightning.
+ *
+ * ═══════════════════════════════════════════════════════════════════════════
+ */
+
+
+/* ── Raw color variables ────────────────────────────────────────────────── */
+
+:root,
+[data-theme="dark"] {
+  --lv-a: #FF0050;   /* Red · Live · Fault */
+}
+
+[data-theme="light"] {
+  --lv-a: #FF3366;
+}
+
+
+/* ── Semantic product tokens ────────────────────────────────────────────── */
+
+[data-product="lnvideo"] {
+  --prod-a:        var(--lv-a);
+  --prod-b:        var(--lv-a);
+  --prod-on-a:     #F1F1F1;
+  --prod-on-b:     #F1F1F1;
+  --prod-gradient: var(--lv-a);
+}
+
+
+/* ── Buttons ────────────────────────────────────────────────────────────── */
+
+.btn-lv,
+.btn-lv-sm {
+  background: var(--lv-a);
+  color:      #ffffff;
+}
+.btn-lv:hover,
+.btn-lv-sm:hover { box-shadow: 0 0 20px rgba(255,0,80,.22); }
+
+.btn-lv-out {
+  background:    transparent;
+  border:        1px solid var(--lv-a);
+  color:         var(--lv-a);
+}
+.btn-lv-out:hover { box-shadow: 0 0 20px rgba(255,0,80,.22); }
+
+
+/* ── Pills ──────────────────────────────────────────────────────────────── */
+
+.pill-lv {
+  background:  color-mix(in srgb, var(--lv-a) 14%, transparent);
+  border:      1px solid var(--lv-a);
+  color:       var(--lv-a);
+}
+
+[data-theme="light"] .pill-lv { color: #CC2952; border-color: #FF3366; background: color-mix(in srgb, #FF3366 14%, transparent); }
+
+
+/* ── Callout tint ───────────────────────────────────────────────────────── */
+
+.callout--lv {
+  background:   color-mix(in srgb, var(--lv-a) 7%,  transparent);
+  border-color: color-mix(in srgb, var(--lv-a) 20%, transparent);
+}
+
+
+/* ── Icon cell hover ────────────────────────────────────────────────────── */
+
+.icon-cell--lv:hover { background: color-mix(in srgb, var(--lv-a) 10%, transparent); }
+
+
+/* ── Form focus ─────────────────────────────────────────────────────────── */
+
+[data-product="lnvideo"] input:focus,
+[data-product="lnvideo"] textarea:focus,
+[data-product="lnvideo"] select:focus {
+  border-color: var(--lv-a);
+  box-shadow:   0 0 0 2px color-mix(in srgb, var(--lv-a) 20%, transparent);
+}
+
+
+/* ── Product bar accent ─────────────────────────────────────────────────── */
+
+.product-bar--lv { background: var(--lv-a); }

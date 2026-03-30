@@ -1,0 +1,141 @@
+/*
+ * ═══════════════════════════════════════════════════════════════════════════
+ *  SHOCKNET — CLINK  ·  Product Stylesheet
+ *  shocknet-clink.css  ·  v1.2
+ * ═══════════════════════════════════════════════════════════════════════════
+ *
+ *  LOAD AFTER shocknet-global.css
+ *
+ *  Colors
+ *  ─────────────────────────────────────────────────────────────────────────
+ *  Path A  Yellow  dark #F7FF00  light #F0E91A   (mark upper arc · Flash)
+ *  Path B  Violet  dark #9B63FF  light #8A6BE5   (mark lower arc · Boost)
+ *
+ *  Note: Yellow (#F7FF00) on dark backgrounds needs care — test contrast
+ *  before using as text on non-dark surfaces.
+ *
+ *  Product: Lightning-powered tipping and micro-transactions.
+ *
+ * ═══════════════════════════════════════════════════════════════════════════
+ */
+
+
+/* ── Raw color variables ────────────────────────────────────────────────── */
+
+:root,
+[data-theme="dark"] {
+  --cl-a:     #F7FF00;   /* Yellow · Flash · Spark  */
+  --cl-b:     #9B63FF;   /* Violet · Boost · Echo   */
+  --cl-on-a:  #111213;   /* Text on yellow fill      */
+  --cl-on-b:  #F1F1F1;   /* Text on violet fill      */
+}
+
+[data-theme="light"] {
+  --cl-a:     #F0E91A;
+  --cl-b:     #8A6BE5;
+  --cl-on-a:  #111213;
+  --cl-on-b:  #F1F1F1;
+}
+
+
+/* ── Semantic product tokens ────────────────────────────────────────────── */
+
+[data-product="clink"] {
+  --prod-a:        var(--cl-a);
+  --prod-b:        var(--cl-b);
+  --prod-on-a:     var(--cl-on-a);
+  --prod-on-b:     var(--cl-on-b);
+  --prod-gradient: linear-gradient(90deg, var(--cl-a), var(--cl-b));
+}
+
+
+/* ── Buttons ────────────────────────────────────────────────────────────── */
+
+/* Primary A — Yellow */
+.btn-cl,
+.btn-cl-sm {
+  background: var(--cl-a);
+  color:      var(--cl-on-a);
+}
+.btn-cl:hover,
+.btn-cl-sm:hover { box-shadow: 0 0 20px rgba(247,255,0,.18); }
+
+/* Primary B — Violet */
+.btn-cl-b,
+.btn-cl-b-sm {
+  background: var(--cl-b);
+  border:     none;
+  color:      #ffffff;
+}
+.btn-cl-b:hover,
+.btn-cl-b-sm:hover { box-shadow: 0 0 20px rgba(155,99,255,.25); }
+
+/* Gradient */
+.btn-cl-grad {
+  background: linear-gradient(90deg, var(--cl-a), var(--cl-b));
+  color:      #111213;
+}
+
+/* Outline A — Yellow stroke */
+.btn-cl-out {
+  background:    transparent;
+  border:        1px solid var(--cl-a);
+  color:         var(--cl-a);
+}
+.btn-cl-out:hover { box-shadow: 0 0 20px rgba(247,255,0,.18); }
+
+/* Outline B — Violet stroke */
+.btn-cl-in {
+  background:    transparent;
+  border:        1px solid var(--cl-b);
+  color:         var(--cl-b);
+}
+.btn-cl-in:hover { box-shadow: 0 0 20px rgba(155,99,255,.22); }
+
+
+/* ── Pills ──────────────────────────────────────────────────────────────── */
+
+/* Yellow pill — use carefully; outline color adjusted for legibility */
+.pill-cy {
+  background:  color-mix(in srgb, var(--cl-a) 14%, transparent);
+  border:      1px solid var(--cl-a);
+  color:       var(--cl-a);
+}
+
+/* Violet pill */
+.pill-cl {
+  background:  color-mix(in srgb, var(--cl-b) 14%, transparent);
+  border:      1px solid var(--cl-b);
+  color:       var(--cl-b);
+}
+
+[data-theme="light"] .pill-cy { color: #7A7200; border-color: #B8AC00; background: color-mix(in srgb, #F0E91A 14%, transparent); }
+[data-theme="light"] .pill-cl { color: #6A4FCC; border-color: #8A6BE5; background: color-mix(in srgb, #8A6BE5 14%, transparent); }
+
+
+/* ── Callout tint ───────────────────────────────────────────────────────── */
+
+.callout--cl {
+  background:   color-mix(in srgb, var(--cl-b) 6%,  transparent);
+  border-color: color-mix(in srgb, var(--cl-b) 18%, transparent);
+}
+
+
+/* ── Icon cell hover ────────────────────────────────────────────────────── */
+
+.icon-cell--cl:hover { background: color-mix(in srgb, var(--cl-b) 10%, transparent); }
+
+
+/* ── Form focus ─────────────────────────────────────────────────────────── */
+
+[data-product="clink"] input:focus,
+[data-product="clink"] textarea:focus,
+[data-product="clink"] select:focus {
+  border-color: var(--cl-b);
+  box-shadow:   0 0 0 2px color-mix(in srgb, var(--cl-b) 20%, transparent);
+}
+
+
+/* ── Product bar accent ─────────────────────────────────────────────────── */
+
+.product-bar--cl { background: linear-gradient(180deg, var(--cl-a), var(--cl-b)); }
