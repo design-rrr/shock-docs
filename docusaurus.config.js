@@ -86,7 +86,7 @@ const config = {
             type: 'doc',
             docId: 'wallet/intro',
             position: 'left',
-            label: 'SHOCKWALLER',
+            label: 'SHOCKWALLET',
           },
           {
             type: 'doc',
