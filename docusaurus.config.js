@@ -73,6 +73,7 @@ const config = {
         logo: {
           alt: 'Shocknet Logo',
           src: 'static/logos/Light/SHOCKNET.png',
+          srcDark: 'static/logos/Dark/SHOCKNET.png',
         },
         items: [
                     {
