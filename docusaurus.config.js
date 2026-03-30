@@ -151,7 +151,7 @@ footer: {
       ],
     },
   ],
-  copyright: `© ${new Date().getFullYear()} SHOCKNET · All rights reserved.`,
+  copyright: `<small>© ${new Date().getFullYear()} SHOCKNET · All rights reserved.</small>`,
 },
       prism: {
         theme: prismThemes.github,
