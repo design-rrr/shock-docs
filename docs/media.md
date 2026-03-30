@@ -86,7 +86,7 @@ Sanctum is SHOCKNET's Nostr-native authentication layer that unlocks bridging to
 Built on Nostr public-key cryptography, Sanctum Auth allows users to authenticate with any application in the SHOCKNET ecosystem and any third-party apps that integrate the Clink SDK. Using only a Nostr keypair teams aim enable the use of a single key without the key owner having to share it. This removes the dependency on centralized identity providers while maintaining a familiar single-sign-on experience.
 ```
 
-### CLNK
+### CLINK
 Developer SDK: <small>[CLINKme.dev](https://CLINKme.dev) · [github.com/SHOCKNET/CLINK](https://github.com/SHOCKNET/CLINK)</small>
 
 **One-line:** Nostr-native interface for adding Bitcoin Lightning  payments to any application.
