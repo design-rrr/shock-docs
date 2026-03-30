@@ -69,9 +69,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'SHOCKNET',
+        title: 'DOCS',
         logo: {
-          alt: 'Shocknet Logo',
+          alt: 'SHOCKNET Logo',
           src: '/logos/Light/SHOCKNET/SHOCKNET.png',
           srcDark: '/logos/Dark/SHOCKNET/SHOCKNET.png',
         },
