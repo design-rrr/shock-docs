@@ -329,8 +329,7 @@ html[data-theme='dark'] {
 .table-of-contents {
   border-left: 1px solid var(--ifm-toc-border-color);
   font-family: 'DM Mono', monospace;
-  font-size:   10px;
-  letter-spacing: 0.05em;
+  font-size:   12px;
 }
 
 .table-of-contents__link {
