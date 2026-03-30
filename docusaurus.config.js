@@ -51,6 +51,7 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+
       }),
     ],
   ],
@@ -58,13 +59,20 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+
+   colorMode: {
+    defaultMode:              'dark',
+    disableSwitch:            false,   // keep the toggle visible
+    respectPrefersColorScheme: true,   // honor OS dark/light preference
+  },
+
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'SHOCKNET',
         logo: {
           alt: 'Shocknet Logo',
-          src: 'img/logo.png',
+          src: 'static/logos/Light/SHOCKNET.png',
         },
         items: [
                     {
