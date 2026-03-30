@@ -3,8 +3,8 @@ sidebar_position: 1
 slug: /
 ---
 
-# The open platform for 
-# Lightning + Nostr apps
+# The open platform 
+# for Lightning + Nostr apps
 
 [SHOCKNET](https://shock.network) is a free and open source (FOSS) set of tools built as bridge between the Bitcoin Lightning Network and Nostr ecosystem. Each of our products is designed to make simple interactions faster, more private, and user-controlled. We brings together a suite of products that work in harmony to reshape your digital experience. 
 
