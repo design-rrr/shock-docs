@@ -114,37 +114,30 @@ const config = {
         ],
       },
 
-      footer: {
+footer: {
   style: 'dark',
   links: [
     {
-      title: 'Community',
+      title: 'Products',
       items: [
-        {
-          label: 'Telegram',
-          href: 'https://t.me/shockbtc',
-        },
-        {
-          label: 'Lightning Video',
-          href: 'https://lightning.video/thecto',
-        },
-        {
-          label: 'Twitter',
-          href: 'https://twitter.com/shockbtc',
-        },
+        { label: 'SHOCKWALLET', href: 'https://shockwallet.app' },
+        { label: 'LIGHTNING.pub', href: 'https://lightning.pub' },
+        { label: 'LIGHTNING.video', href: 'https://lightning.video' },
+        { label: 'CLINK', href: 'https://clink.cool' },
+        { label: 'SANCTUM', href: 'https://sanctum.app' },
       ],
     },
     {
-      title: 'More',
+      title: 'Resources',
       items: [
-        {
-          label: 'GitHub',
-          href: 'https://github.com/shocknet/',
-        },
+        { label: 'Community', href: 'https://t.me/shockbtc' },
+        { label: 'Nostr', href: 'https://njump.to/nprofile1qqsrx9hrd9k7wnfejkgj0wwcgt0400wut5w8479qfudu0tkcpdz9pzqfwq5xw' },
+        { label: 'GitHub', href: 'https://github.com/SHOCKNET' },
+        { label: 'X', href: 'https://x.com/shockbtc' },
       ],
     },
   ],
-  copyright: `Copyright © ${new Date().getFullYear()} Shock Network, Inc. Built with Docusaurus.`,
+  copyright: `© ${new Date().getFullYear()} SHOCKNET · All rights reserved.`,
 },
       prism: {
         theme: prismThemes.github,
