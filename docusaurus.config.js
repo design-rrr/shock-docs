@@ -136,7 +136,7 @@ footer: {
       items: [
         { label: 'SHOCKWALLET', href: 'https://shockwallet.app' },
         { label: 'LIGHTNING.pub', href: 'https://lightning.pub' },
-        { label: 'LIGHTNING.video', href: 'https://lightning.video' },
+        { label: 'LN.video', href: 'https://lightning.video' },
         { label: 'SANCTUM', href: 'https://sanctum.app' },
         { label: 'CLINK', href: 'https://clink.cool' },
       ],
